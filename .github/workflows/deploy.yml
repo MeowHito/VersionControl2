@@ -35,6 +35,6 @@ jobs:
         if: github.ref == 'refs/heads/master'
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ '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' }}
           publish_dir: ./dist/spa
           publish_branch: gh-pages
